@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    width: 566px;
+    height: 566px;
+    background-image: url(../images/clock8.png) ; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.hour ,.minute ,.second{
+    position: absolute;
+    background: black;
+    border-radius: 8px;
+    transform-origin: bottom;
+}
+.hour{
+    width: 6px;
+    height: 83px;
+    top: 190px;
+    left: 278px;
+    opacity: 0.9;
+}
+.minute{
+    width: 3px;
+    height: 111px;
+    top: 161px;
+    left: 279px;
+    opacity: 0.8;
+}
+.second{
+    width: 2px;
+    height: 127px;
+    top: 145px;
+    left: 280px;
+    opacity: 0.5
+}
+.center{
+    background-color: black;
+    border-radius: 50%;
+    height: 8px;
+    width: 8px;
+    top: 269px;
+    left: 277px;
+   position: absolute;
+}
